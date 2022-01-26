@@ -1,4 +1,7 @@
 const Nav = () => {
+    const AboutRender = () => {
+
+    }
     return (
         <div>
             <ul>

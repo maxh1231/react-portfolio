@@ -57,13 +57,15 @@ const projects = [
 
 function App() {
 
+
   return (
     <div className="App">
       <Header />
       <Footer />
       <Projects projects={projects} />
       <Contact />
-      <About />
+
+
     </div>
   );
 }
