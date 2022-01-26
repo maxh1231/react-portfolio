@@ -3,6 +3,7 @@ import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 import Projects from './components/Project/Projects'
 import Contact from './components/Contact/Contact'
+import About from './components/About/About'
 
 const projects = [
   {
@@ -62,6 +63,7 @@ function App() {
       <Footer />
       <Projects projects={projects} />
       <Contact />
+      <About />
     </div>
   );
 }

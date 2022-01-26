@@ -12,6 +12,12 @@ const Projects = (props) => {
                     {project.disc}
                 </p>
             </div>
+            <div>
+                <a href={project.repo}>Repo</a>
+            </div>
+            <div>
+                <a href={project.live}>Live Site</a>
+            </div>
         </>
 
         )
