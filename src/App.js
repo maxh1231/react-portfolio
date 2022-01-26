@@ -2,6 +2,7 @@ import './App.css';
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 import Projects from './components/Project/Projects'
+import Contact from './components/Contact/Contact'
 
 const projects = [
   {
@@ -24,6 +25,7 @@ function App() {
       <Header />
       <Footer />
       <Projects projects={projects} />
+      <Contact />
     </div>
   );
 }
