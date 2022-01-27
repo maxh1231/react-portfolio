@@ -1,5 +1,5 @@
-import github from '../../../src/GitHub-Mark-32px.png'
-import linkedln from '../../../src/icons8-linkedin-32.png'
+import github from '../../src/GitHub-Mark-32px.png'
+import linkedln from '../../src/icons8-linkedin-32.png'
 
 const Footer = () => {
     return (

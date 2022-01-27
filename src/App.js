@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import './App.css';
-import About from './components/About/About'
+import About from './components/About'
 import Projects from './components/Projects';
+import Contact from './components/Contact';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 const projects = [
   {
@@ -62,7 +65,7 @@ function App() {
       return <About />;
     }
     if (currentPage === 'Portfolio') {
-      return <Projects />
+      return <Projects projects={projects} />
     }
     if (currentPage === 'Resume') {
       return // resume component
