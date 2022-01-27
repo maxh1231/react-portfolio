@@ -2,13 +2,15 @@ import Nav from './Nav'
 
 const Header = ({ currentPage, handlePageChange }) => {
     return (
-        <header>
+        <header className="flex">
             <div>
-                <h1>
+                <h1 className="text-4xl font-bold underline">
                     Max Humpherys
                 </h1>
             </div>
-            <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+            <div>
+                <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+            </div>
         </header>
     )
 }
