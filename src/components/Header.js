@@ -1,6 +1,6 @@
-import Nav from '../Nav/Nav'
+import Nav from './Nav'
 
-const Header = () => {
+const Header = ({ currentPage, handlePageChange }) => {
     return (
         <header>
             <div>
@@ -8,7 +8,7 @@ const Header = () => {
                     Max Humpherys
                 </h1>
             </div>
-            <Nav />
+            <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
         </header>
     )
 }

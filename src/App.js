@@ -1,9 +1,7 @@
+import React, { useState } from 'react';
 import './App.css';
-import Header from './components/Header/Header'
-import Footer from './components/Footer/Footer'
-import Projects from './components/Project/Projects'
-import Contact from './components/Contact/Contact'
 import About from './components/About/About'
+import Projects from './components/Projects';
 
 const projects = [
   {
@@ -43,7 +41,7 @@ const projects = [
     title: 'Social Network API',
     disc: 'Social Media API back-end. Create accounts, add friends, share thoughts, add reactions to thoughts.',
     repo: 'https://github.com/maxh1231/social-network-api',
-    live: 'https://github.com/maxh1231/social-network-api',
+    live: 'Not deployed',
   },
   {
     id: 6,
@@ -57,15 +55,31 @@ const projects = [
 
 function App() {
 
+  const [currentPage, setCurrentPage] = useState('Home');
+
+  const renderPage = () => {
+    if (currentPage === 'Home') {
+      return <About />;
+    }
+    if (currentPage === 'Portfolio') {
+      return <Projects />
+    }
+    if (currentPage === 'Resume') {
+      return // resume component
+    }
+    if (currentPage === 'Contact') {
+      return <Contact />
+    }
+  }
+
+  const handlePageChange = (page) => setCurrentPage(page);
+
 
   return (
     <div className="App">
-      <Header />
+      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+      {renderPage()}
       <Footer />
-      <Projects projects={projects} />
-      <Contact />
-
-
     </div>
   );
 }
