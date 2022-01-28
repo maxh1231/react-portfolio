@@ -3,12 +3,12 @@
 const Projects = (props) => {
     const projectCompents = props.projects.map(function (project) {
         return (
-            <div key={project.id} className="flex flex-col w-[450px] h-[450px]">
+            <div key={project.id} className="flex flex-col w-[450px] h-[450px] my-12">
                 <div>
                     <h3 key={project.title}>{project.title}</h3>
                 </div>
                 <div className="flex justify-center items-center overflow-hidden ">
-                    <img key={project.img} src={project.img} alt='' className="w-5/6 h-11/12"></img>
+                    <img key={project.img} src={project.img} alt='' className="w-5/6 h-7/12"></img>
                 </div>
                 <div>
                     <p key={project.disc} className="w-full block break-normal">
@@ -24,7 +24,7 @@ const Projects = (props) => {
         )
     })
     return (
-        <section className="flex flex-row flex-wrap justify-center items-center ">
+        <section className="flex flex-row flex-wrap justify-center items-center my-6 ">
             {projectCompents}
         </section>
     )
