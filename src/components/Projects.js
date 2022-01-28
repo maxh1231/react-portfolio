@@ -3,26 +3,28 @@
 const Projects = (props) => {
     const projectCompents = props.projects.map(function (project) {
         return (
-            <div key={project.id} className="flex flex-col">
-
-                <h3 key={project.title}>{project.title}</h3>
-
-                <img key={project.img} src={project.img} alt=''></img>
-
-                <p key={project.disc}>
-                    {project.disc}
-                </p>
-
-                <a key={project.repo} href={project.repo}>Repo</a>
-
-                <a key={project.live} href={project.live}>Live Site</a>
-
+            <div key={project.id} className="flex flex-col w-[450px] h-[450px]">
+                <div>
+                    <h3 key={project.title}>{project.title}</h3>
+                </div>
+                <div className="flex justify-center items-center overflow-hidden ">
+                    <img key={project.img} src={project.img} alt='' className="w-5/6 h-11/12"></img>
+                </div>
+                <div>
+                    <p key={project.disc} className="w-full block break-normal">
+                        {project.disc}
+                    </p>
+                </div>
+                <div>
+                    <a key={project.repo} href={project.repo}>Repo</a>
+                    <a key={project.live} href={project.live}>Live Site</a>
+                </div>
             </div>
 
         )
     })
     return (
-        <section>
+        <section className="flex flex-row flex-wrap justify-center items-center ">
             {projectCompents}
         </section>
     )

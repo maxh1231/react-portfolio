@@ -39,7 +39,7 @@ const projects = [
   },
   {
     id: 4,
-    title: 'Weather Dashbaord',
+    title: 'Weather Dashboard',
     img: dashboard,
     disc: 'Weather forecast in a given city.',
     repo: 'https://github.com/maxh1231/weather-dashboard',
