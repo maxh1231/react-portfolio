@@ -2,7 +2,7 @@ import React from 'react';
 
 const Nav = ({ currentPage, handlePageChange }) => {
     return (
-        <ul className="flex flex-row ">
+        <ul className="flex flex-row">
             <li>
                 <a onClick={() => handlePageChange('Home')}>
                     About Me

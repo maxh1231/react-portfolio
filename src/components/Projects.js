@@ -1,11 +1,13 @@
+
+
 const Projects = (props) => {
     const projectCompents = props.projects.map(function (project) {
         return (
-            <div key={project.id}>
+            <div key={project.id} className="flex flex-col">
 
                 <h3 key={project.title}>{project.title}</h3>
 
-                <img key={project.img} src='' alt=''></img>
+                <img key={project.img} src={project.img} alt=''></img>
 
                 <p key={project.disc}>
                     {project.disc}
