@@ -87,7 +87,7 @@ function App() {
 
 
   return (
-    <div className="App">
+    <div className="App ">
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
       <Footer />
