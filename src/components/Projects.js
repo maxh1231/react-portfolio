@@ -8,18 +8,18 @@ const Projects = (props) => {
                 <div className="  flex justify-center items-center overflow-hidden w-[450px] h-[450px] ">
                     <img key={project.img} src={project.img} alt='' className=" projectImg block"></img>
                 </div>
-                <div className=" projectInfo flex flex-col justify-center items-center ">
+                <div className=" projectInfo flex flex-col justify-between h-full">
                     <div>
-                        <h3 className="text-xl" key={project.title}>{project.title}</h3>
+                        <h3 className="text-2xl font-semibold" key={project.title}>{project.title}</h3>
                     </div>
                     <div>
-                        <p key={project.disc} className="text-left">
+                        <p key={project.disc} className="text-xl">
                             {project.disc}
                         </p>
                     </div>
                     <div>
-                        <a key={project.repo} href={project.repo}>Repo</a>
-                        <a key={project.live} href={project.live}>Live Site</a>
+                        <a className="text-xl" key={project.repo} href={project.repo}>Repo</a>
+                        <a className="text-xl" key={project.live} href={project.live}>Live Site</a>
                     </div>
                 </div>
             </div>

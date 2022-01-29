@@ -25,7 +25,7 @@ const projects = [
     id: 2,
     title: 'Meet Landing Page',
     img: meet,
-    disc: 'Landing page for the Meet application',
+    disc: 'Landing page for the Meet application, Landing page for the Meet application, Landing page for the Meet application, ',
     repo: 'https://github.com/maxh1231/meet-landing-page',
     live: 'https://maxh1231.github.io/meet-landing-page/'
   },
@@ -41,7 +41,7 @@ const projects = [
     id: 4,
     title: 'Weather Dashboard',
     img: dashboard,
-    disc: 'Weather forecast in a given city.',
+    disc: 'Weather forecast in a given city. Weather forecast in a given city. Weather forecast in a given city. Weather forecast in a given city.',
     repo: 'https://github.com/maxh1231/weather-dashboard',
     live: 'https://maxh1231.github.io/weather-dashboard/'
   },
