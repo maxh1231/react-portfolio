@@ -40,3 +40,24 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+
+.projectInfo {
+  opacity:0;
+  position: absolute;
+}
+
+.projectImg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+}
+
+
+.card:hover .projectImg {
+  opacity: .2
+}
+
+.card:hover .projectInfo {
+  opacity: 1;
+}
