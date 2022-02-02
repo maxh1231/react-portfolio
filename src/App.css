@@ -70,3 +70,22 @@ body {
 .navActive {
   border-bottom: 3px solid #e5e5e5;
 }
+
+
+.contact:focus {
+  border: none;
+  outline-offset: 0;
+  outline: solid 2px #4D0823;
+}
+
+.contact::placeholder {
+  color: #4D0823;
+}
+
+.btn {
+  color: #4D0823;
+}
+
+.btn:hover {
+  outline: solid 2px #4D0823;
+}
