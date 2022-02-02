@@ -89,3 +89,8 @@ body {
 .btn:hover {
   outline: solid 2px #4D0823;
 }
+
+.avatar {
+  height: 350px;
+  width: 350px;
+}
