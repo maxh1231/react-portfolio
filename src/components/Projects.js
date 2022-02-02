@@ -17,9 +17,9 @@ const Projects = (props) => {
                             {project.disc}
                         </p>
                     </div>
-                    <div>
-                        <a className="text-xl" key={project.repo} href={project.repo}>Repo</a>
-                        <a className="text-xl" key={project.live} href={project.live}>Live Site</a>
+                    <div className="flex justify-evenly">
+                        <a className="text-xl text-[#00b4d8] hover:underline" key={project.repo} href={project.repo}>Repo</a>
+                        <a className="text-xl text-[#00b4d8] hover:underline" key={project.live} href={project.live}>Live Site</a>
                     </div>
                 </div>
             </div>
