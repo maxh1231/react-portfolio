@@ -1,6 +1,6 @@
 import Nav from './Nav'
 
-const Header = ({ currentPage, handlePageChange }) => {
+const Header = ({ currentPage, setCurrentPage }) => {
     return (
         <header className="flex flex-row w-full items-center justify-between bg-[#4D0823]">
             <div>
@@ -9,7 +9,7 @@ const Header = ({ currentPage, handlePageChange }) => {
                 </h1>
             </div>
             <div className="flex flex-row justify-end ">
-                <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+                <Nav currentPage={currentPage} setCurrentPage={setCurrentPage} />
             </div >
         </header>
     )

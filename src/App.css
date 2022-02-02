@@ -61,3 +61,12 @@ body {
 .card:hover .projectInfo {
   opacity: 1;
 }
+
+.navItem:hover{
+  cursor: pointer;
+  color: white;
+}
+
+.navActive {
+  border-bottom: 3px solid #e5e5e5;
+}

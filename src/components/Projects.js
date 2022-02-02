@@ -3,7 +3,7 @@
 const Projects = (props) => {
     const projectCompents = props.projects.map(function (project) {
         return (
-            <div key={project.id} className=" card flex flex-col w-[450px] h-[450px] my-12  mx-2 border-4 border-[#4D0823] rounded-md relative">
+            <div key={project.id} className=" card flex flex-col w-[450px] h-[450px] my-12  mx-2 border-4 border-[#4D0823] rounded-md relative shadow-xl basis-1/4">
 
                 <div className="  flex justify-center items-center overflow-hidden w-[450px] h-[450px] ">
                     <img key={project.img} src={project.img} alt='' className=" projectImg block"></img>

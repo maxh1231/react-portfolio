@@ -1,25 +1,25 @@
 import React from 'react';
 
-const Nav = ({ currentPage, handlePageChange }) => {
+const Nav = ({ currentPage, setCurrentPage }) => {
     return (
         <ul className="flex flex-row text-[#e5e5e5]">
             <li className="mx-4 " >
-                <a onClick={() => handlePageChange('Home')} className="text-xl ">
+                <a onClick={() => setCurrentPage('Home')} className={`navItem text-xl ${currentPage === 'Home' && 'navActive'}`} >
                     About Me
                 </a>
             </li>
             <li className="mx-4">
-                <a onClick={() => handlePageChange('Portfolio')} className="text-xl">
+                <a onClick={() => setCurrentPage('Portfolio')} className={`navItem text-xl ${currentPage === 'Portfolio' && 'navActive'}`}>
                     Portfolio
                 </a>
             </li>
             <li className="mx-4">
-                <a onClick={() => handlePageChange('Resume')} className="text-xl">
+                <a onClick={() => setCurrentPage('Resume')} className={`navItem text-xl ${currentPage === 'Resume' && 'navActive'}`}>
                     Resume
                 </a>
             </li>
             <li className="mx-4">
-                <a onClick={() => handlePageChange('Contact')} className="text-xl">
+                <a onClick={() => setCurrentPage('Contact')} className={`navItem text-xl ${currentPage === 'Contact' && 'navActive'}`}>
                     Contact
                 </a>
             </li>
