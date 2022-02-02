@@ -86,7 +86,7 @@ function App() {
 
 
   return (
-    <div className="App ">
+    <div className="App bg-[#e5e5e5] h-screen">
       <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
       {renderPage()}
       <Footer />

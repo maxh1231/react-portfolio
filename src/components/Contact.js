@@ -1,6 +1,6 @@
 const Contact = () => {
     return (
-        <section className="flex flex-col justify-center items-center h-screen bg-[#e5e5e5]">
+        <section className="flex flex-col justify-center items-center h-5/6 bg-[#e5e5e5]">
             <div>
                 <div className="my-4 w-[400px] shadow-lg">
                     <input className="contact py-2 pl-2 w-full" type='text' placeholder='Name'></input>

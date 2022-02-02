@@ -2,7 +2,7 @@ import photo from '../me-400x600.jpg'
 
 const About = () => {
     return (
-        <section className='flex flex-row justify-center w-full h-screen bg-[#e5e5e5]'>
+        <section className='flex flex-row justify-center w-full h-4/5 bg-[#e5e5e5]'>
             <div className="ml-12 w-1/4 flex flex-col justify-center">
                 <div>
                     <h3 className="text-5xl text-left">Hi, I'm Max</h3>

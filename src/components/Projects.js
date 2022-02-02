@@ -27,7 +27,7 @@ const Projects = (props) => {
         )
     })
     return (
-        <section className="flex flex-row flex-wrap justify-center items-center my-6 bg-[#e5e5e5]">
+        <section className="flex flex-row flex-wrap justify-center items-center mt-6 bg-[#e5e5e5]">
             {projectCompents}
         </section>
     )
