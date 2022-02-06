@@ -8,7 +8,7 @@ const Resume = () => {
             </div>
             <div className='mt-2'>
 
-                <a href="https://docs.google.com/document/d/1S9RU3scZyjFcD91g1vVpjavVcvp9GqvFuitpEzQ5CCA/edit?usp=sharing">
+                <a href="https://docs.google.com/document/d/1S9RU3scZyjFcD91g1vVpjavVcvp9GqvFuitpEzQ5CCA/edit?usp=sharing" target="_blank">
                     <button className='btn py-2 px-6 bg-[#FFF]'>
                         View Resume
                     </button>
