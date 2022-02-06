@@ -101,5 +101,11 @@ header {
   z-index: 999;
 }
 
+.footerImage {
+  opacity: .8;
+}
 
+.footerImage:hover {
+  opacity: 1;
+}
 

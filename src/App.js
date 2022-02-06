@@ -5,6 +5,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Resume from './components/Resume';
 import travelAgent from './travelagent.PNG'
 import no1fan from './no1fan.PNG'
 import meet from './meet.PNG'
@@ -75,7 +76,7 @@ function App() {
       return <Projects projects={projects} />
     }
     if (currentPage === 'Resume') {
-      return // resume component
+      return <Resume />
     }
     if (currentPage === 'Contact') {
       return <Contact />
