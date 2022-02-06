@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.89273b02.css",
+    "main.js": "/react-portfolio/static/js/main.f4e998a8.js",
+    "static/media/no1fan.PNG": "/react-portfolio/static/media/no1fan.e9e1cb63529f4bc84ce1.PNG",
+    "static/media/travelagent.PNG": "/react-portfolio/static/media/travelagent.5e27d96ae50c29fc5b20.PNG",
+    "static/media/resume.PNG": "/react-portfolio/static/media/resume.47ca01d0bfec26ea6aed.PNG",
+    "static/media/me-400x600.jpg": "/react-portfolio/static/media/me-400x600.fed2bcf8fc175c18ac06.jpg",
+    "static/media/meet.PNG": "/react-portfolio/static/media/meet.edda88d768ec12742891.PNG",
+    "static/media/weather-dashboard.PNG": "/react-portfolio/static/media/weather-dashboard.45ce96f0406b8cf6cd7f.PNG",
+    "static/media/techblog.PNG": "/react-portfolio/static/media/techblog.e81b4dd02960b9687a23.PNG",
+    "static/media/passgen.PNG": "/react-portfolio/static/media/passgen.61d6618b900473cecc7c.PNG",
+    "index.html": "/react-portfolio/index.html",
+    "main.89273b02.css.map": "/react-portfolio/static/css/main.89273b02.css.map",
+    "main.f4e998a8.js.map": "/react-portfolio/static/js/main.f4e998a8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89273b02.css",
+    "static/js/main.f4e998a8.js"
+  ]
+}
