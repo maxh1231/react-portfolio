@@ -29,6 +29,7 @@ const Contact = () => {
 
     return (
         <section className="flex flex-col justify-center items-center h-5/6 bg-[#e5e5e5]">
+            <h3 className="text-4xl text-[#4D0823] py-6">Send me an email!</h3>
             <div>
                 <form ref={form} onSubmit={handleSubmit(sendEmail)}>
                     <div className="my-4 w-[400px] ">
