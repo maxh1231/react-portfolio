@@ -11,12 +11,12 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
         setView(true);
-        // emailjs.sendForm('service_zirnhu8', 'template_z5s2y9b', form.current, 'user_MiPMA7RruofT1yJEswkdw')
-        //     .then((result) => {
-        //         console.log(result.text);
-        //     }, (error) => {
-        //         console.log(error.text)
-        //     });
+        emailjs.sendForm('service_zirnhu8', 'template_z5s2y9b', form.current, 'user_MiPMA7RruofT1yJEswkdw')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text)
+            });
     };
 
     if (view) {
