@@ -10,7 +10,7 @@ import travelAgent from './travelagent.PNG'
 import no1fan from './no1fan.PNG'
 import meet from './meet.PNG'
 import dashboard from './weather-dashboard.PNG'
-import passGen from './passgen.PNG'
+import type from './typeplusplus.png'
 import techblog from './techblog.PNG'
 
 const projects = [
@@ -56,11 +56,11 @@ const projects = [
   },
   {
     id: 6,
-    title: 'Password Generator',
-    img: passGen,
-    disc: 'Application that generates a random password based on a given set of criteras. Users have the ability to choose the length of the password, include numbers and special characters, and lowercase and uppercase letters if indicated. Built with vanilla javaScript. ',
-    repo: 'https://github.com/maxh1231/password-generator',
-    live: 'https://maxh1231.github.io/password-generator/',
+    title: 'Type++',
+    img: type,
+    disc: 'Full Stack MERN application. Utilizing several NPM packages to display a clean user interface. Type++ is a gamified tpying test application. Built with GraphQL and Tailwind.CSS',
+    repo: 'https://github.com/maxh1231/type-Plus-Plus',
+    live: 'https://typeplusplus.herokuapp.com/',
   }
 ]
 
