@@ -1,20 +1,29 @@
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+    const [view, setView] = useState(false);
 
     const form = useRef();
 
     const sendEmail = (e) => {
         e.preventDefault();
-
-        emailjs.sendForm('service_zirnhu8', 'template_z5s2y9b', form.current, 'user_MiPMA7RruofT1yJEswkdw')
-            .then((result) => {
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text)
-            });
+        setView(true);
+        // emailjs.sendForm('service_zirnhu8', 'template_z5s2y9b', form.current, 'user_MiPMA7RruofT1yJEswkdw')
+        //     .then((result) => {
+        //         console.log(result.text);
+        //     }, (error) => {
+        //         console.log(error.text)
+        //     });
     };
+
+    if (view) {
+        return (
+            <div className="flex flex-col justify-center items-center h-5/6 text-2xl">
+                <h3>Thank you!</h3>
+            </div>
+        )
+    }
 
     return (
         <section className="flex flex-col justify-center items-center h-5/6 bg-[#e5e5e5]">
