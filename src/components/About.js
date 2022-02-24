@@ -1,3 +1,5 @@
+import Avatar from 'avataaars'
+
 import photo from '../me-400x600.jpg'
 
 const About = () => {
@@ -14,7 +16,18 @@ const About = () => {
                 </div>
             </div>
             <div className="mr-12 w-1/4 flex justify-center items-center">
-                <img className="avatar border-4 border-[#4D0823] rounded-full object-cover shadow-2xl" src={photo} alt='Picture of me' width=""></img>
+                <Avatar
+                    avatarStyle='Circle'
+                    topType='ShortHairShortFlat'
+                    accessoriesType='Prescription02'
+                    hairColor='BrownDark'
+                    facialHairType='Blank'
+                    clotheType='BlazerShirt'
+                    eyeType='Happy'
+                    eyebrowType='Default'
+                    mouthType='Default'
+                    skinColor='Light'
+                />
             </div>
         </section>
     )
