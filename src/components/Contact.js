@@ -11,12 +11,12 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
         setView(true);
-        emailjs.sendForm('service_zirnhu8', 'template_z5s2y9b', form.current, 'user_MiPMA7RruofT1yJEswkdw')
-            .then((result) => {
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text)
-            });
+        // emailjs.sendForm('service_zirnhu8', 'template_z5s2y9b', form.current, 'user_MiPMA7RruofT1yJEswkdw')
+        //     .then((result) => {
+        //         console.log(result.text);
+        //     }, (error) => {
+        //         console.log(error.text)
+        //     });
     };
 
     if (view) {
@@ -29,7 +29,7 @@ const Contact = () => {
 
     return (
         <section className="flex flex-col justify-center items-center h-5/6 bg-[#e5e5e5]">
-            <h3 className="text-4xl text-[#4D0823] py-6">Send me an email!</h3>
+            <h3 className="text-3xl text-[#4D0823]">Send me an email!</h3>
             <div>
                 <form ref={form} onSubmit={handleSubmit(sendEmail)}>
                     <div className="my-4 w-[400px] ">

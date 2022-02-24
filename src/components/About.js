@@ -1,6 +1,6 @@
-import Avatar from 'avataaars'
+// eslint-disable
 
-import photo from '../me-400x600.jpg'
+import Avatar from 'avataaars'
 
 const About = () => {
     return (
@@ -27,7 +27,8 @@ const About = () => {
                     eyebrowType='Default'
                     mouthType='Default'
                     skinColor='Light'
-                />
+                /> {/* eslint-disable-line react-hooks/exhaustive-deps */}
+
             </div>
         </section>
     )
