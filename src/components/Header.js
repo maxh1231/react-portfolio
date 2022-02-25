@@ -4,7 +4,7 @@ const Header = ({ currentPage, setCurrentPage }) => {
     return (
         <header className="flex flex-row w-full items-center justify-between bg-[#4D0823]">
             <div>
-                <h1 className="text-4xl text-left text-[#e5e5e5] p-2">
+                <h1 className="text-2xl lg:text-4xl text-left text-[#e5e5e5] p-2">
                     Max Humpherys
                 </h1>
             </div>

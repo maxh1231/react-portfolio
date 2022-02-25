@@ -30,10 +30,10 @@ const Contact = () => {
 
     return (
         <section className="flex flex-col justify-center items-center h-5/6 bg-[#e5e5e5]">
-            <h3 className="text-3xl text-[#4D0823]">Send me an Email!</h3>
+            <h3 className="text-xl sm:text-3xl text-[#4D0823]">Send me an Email!</h3>
             <div>
                 <form ref={form} onSubmit={handleSubmit(sendEmail)}>
-                    <div className="my-4 w-[400px] ">
+                    <div className="my-4 w-[250px] sm:w-[400px] ">
                         <input
                             {...register('from_name', { required: true })}
                             className="contact py-2 pl-2 w-full"
@@ -43,7 +43,7 @@ const Contact = () => {
 
 
                     </div>
-                    <div className="my-4 w-[400px]">
+                    <div className="my-4 w-[250px] sm:w-[400px]">
                         <input
                             {...register('from_email', { required: true, pattern: /\S+@\S+\.\S+/ })}
                             className="contact py-2 pl-2 w-full"
@@ -51,7 +51,7 @@ const Contact = () => {
                             placeholder='Your email'></input>
                         {errors.from_email && <span className="block bg-[#e5e5e5] text-[#4D0823]">Must be a valid email address.</span>}
                     </div>
-                    <div className="my-4 w-[400px] h-[150px] shadow-lg">
+                    <div className="my-4 w-[250px] sm:w-[400px] h-[150px] shadow-lg">
                         <textarea
                             {...register('message', { required: true })}
                             className="contact py-2 pl-2 w-full h-full"
