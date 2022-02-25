@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.633ca05e.css",
-    "main.js": "/react-portfolio/static/js/main.7aeaf494.js",
+    "main.css": "/react-portfolio/static/css/main.e4f4f56f.css",
+    "main.js": "/react-portfolio/static/js/main.3384954b.js",
     "static/media/typeplusplus.png": "/react-portfolio/static/media/typeplusplus.d4e9e5ebfd116101780f.png",
     "static/media/no1fan.PNG": "/react-portfolio/static/media/no1fan.e9e1cb63529f4bc84ce1.PNG",
     "static/media/travelagent.PNG": "/react-portfolio/static/media/travelagent.5e27d96ae50c29fc5b20.PNG",
-    "static/media/resume.PNG": "/react-portfolio/static/media/resume.47ca01d0bfec26ea6aed.PNG",
+    "static/media/maxHResume.pdf": "/react-portfolio/static/media/maxHResume.2ecb617b9f6f18536e44.pdf",
     "static/media/meet.PNG": "/react-portfolio/static/media/meet.edda88d768ec12742891.PNG",
     "static/media/weather-dashboard.PNG": "/react-portfolio/static/media/weather-dashboard.45ce96f0406b8cf6cd7f.PNG",
     "static/media/techblog.PNG": "/react-portfolio/static/media/techblog.e81b4dd02960b9687a23.PNG",
     "index.html": "/react-portfolio/index.html",
-    "main.633ca05e.css.map": "/react-portfolio/static/css/main.633ca05e.css.map",
-    "main.7aeaf494.js.map": "/react-portfolio/static/js/main.7aeaf494.js.map"
+    "main.e4f4f56f.css.map": "/react-portfolio/static/css/main.e4f4f56f.css.map",
+    "main.3384954b.js.map": "/react-portfolio/static/js/main.3384954b.js.map"
   },
   "entrypoints": [
-    "static/css/main.633ca05e.css",
-    "static/js/main.7aeaf494.js"
+    "static/css/main.e4f4f56f.css",
+    "static/js/main.3384954b.js"
   ]
 }
