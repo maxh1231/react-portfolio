@@ -6,7 +6,7 @@ const Projects = (props) => {
             <div key={project.id} className=" card flex flex-col w-[450px] h-[450px] my-12  mx-2 border-4 border-[#4D0823] rounded-md relative shadow-xl basis-1/4">
 
                 <div className="  flex justify-center items-center overflow-hidden w-[450px] h-[450px] ">
-                    <img key={project.img} src={project.img} alt='' className=" projectImg block"></img>
+                    <img key={project.img} src={project.img} alt='' className=" projectImg block object-cover"></img>
                 </div>
                 <div className=" projectInfo flex flex-col justify-between h-full">
                     <div>
