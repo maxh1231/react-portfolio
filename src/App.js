@@ -42,9 +42,9 @@ const projects = [
     id: 4,
     title: 'Travel Agent',
     img: travelAgent,
-    disc: 'An application that assists you in making travel plans. Displays weather information and hotel information in a given city. Built with vanilla JavaScript, Moment.Js, HTML and CSS.',
+    disc: 'An application that assists you in making travel plans. Displays weather information and hotel information in a given city. Built with vanilla JavaScript, Moment.Js, HTML and CSS. Initially a front-end application, I have since refactored, added a backend and deployed to heroku.',
     repo: 'https://github.com/maxh1231/travel-agent',
-    live: 'https://maxh1231.github.io/travel-agent/'
+    live: 'https://travagent.herokuapp.com/'
   },
   {
     id: 5,

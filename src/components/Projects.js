@@ -18,8 +18,8 @@ const Projects = (props) => {
                         </p>
                     </div>
                     <div className="flex justify-evenly">
-                        <a className="text-xl text-[#00b4d8] hover:underline" key={project.repo} href={project.repo} target="_blank">Repo</a>
-                        <a className="text-xl text-[#00b4d8] hover:underline" key={project.live} href={project.live} target="_blank">Live Site</a>
+                        <a className="text-xl font-bold text-[#0077b6] hover:underline" key={project.repo} href={project.repo} target="_blank">Repo</a>
+                        <a className="text-xl font-bold text-[#0077b6] hover:underline" key={project.live} href={project.live} target="_blank">Live Site</a>
                     </div>
                 </div>
             </div>
