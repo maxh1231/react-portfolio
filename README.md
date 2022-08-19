@@ -19,6 +19,8 @@
 
   ## Live Application
   [GitHub Pages](https://maxh1231.github.io/react-portfolio/)
+  
+  [View my updated portfolio here](https://maxh1231.github.io/portfolio-v2/)
 
   ## Screenshot
   ![image](https://user-images.githubusercontent.com/41771785/152665046-cdbe2504-9153-4758-8ed1-5fd26bd9ca7d.png)
